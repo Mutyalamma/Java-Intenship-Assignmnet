@@ -8,7 +8,7 @@ public class duplicatesinset {
         Set<Character> noDuplicates = new HashSet<>();
 
         for (int i = 0; i < str.length(); i++) {
-            char currentChar = str.charAt(i);
+            char[] currentChar = str.charAt(i);
             if (noDuplicates.contains(currentChar)) {
                 duplicates.add(currentChar);
             } else {
